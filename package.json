@@ -1,0 +1,38 @@
+{
+  "name": "experiment-lightning-choo",
+  "version": "1.0.0",
+  "description": "experimenting with using lightning visualizations with choo",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js -l -P"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/experiment-lightning-choo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethvincent/experiment-lightning-choo/issues"
+  },
+  "homepage": "https://github.com/sethvincent/experiment-lightning-choo#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "budo": "^8.3.0"
+  },
+  "dependencies": {
+    "lightning-adjacency": "0.0.13",
+    "lightning-circle": "0.0.6",
+    "lightning-force": "0.0.14",
+    "lightning-graph-bundled": "0.0.9",
+    "lightning-histogram": "^0.2.1",
+    "lightning-line": "^1.0.1",
+    "lightning-map": "0.0.11",
+    "lightning-matrix": "0.0.15",
+    "lightning-scatter": "^0.1.10",
+    "lightning-scatter-3": "0.0.8",
+    "lightning-volume": "0.0.7",
+    "xtend": "^4.0.1",
+    "yo-yo": "^1.2.2"
+  }
+}
